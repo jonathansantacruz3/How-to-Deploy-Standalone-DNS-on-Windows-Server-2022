@@ -1,0 +1,1 @@
+# How-to-Deploy-Standalone-DNS-on-Windows-Server-2022
