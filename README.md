@@ -21,6 +21,9 @@ In this project, I will detail the process of how to set up a standalone DNS (Do
 
 The first thing to point out is the topology in this diagram. I utilized a private virtual switch within Hyper-V. It is worth mentioning, that I also used an external virtual switch on both virtual machines to test their connectivity and succeeded. I named my server, Thanos, and it is the authoritative DNS for my domain galaxy.com. I also connected a client machine named StarLord running Windows 11 Professional. 
 
+![How to Deploy a Standalone DNS on a Windows Server 2022](https://github.com/jonathansantacruz3/How-to-Deploy-Standalone-DNS-on-Windows-Server-2022/assets/151465848/99e0d271-b524-45e0-97ec-3a09f34c0ecd)
+
+
 <h3>Why configure the DNS server’s IP address to static?</h3>
 
 You must set your DNS server’s IP (internet protocol) address to static to ensure that your client PC can resolve domain names. If it can’t resolve domain names, then it can’t visit any of the organization’s websites based on the names you provide. Also, Active Directory Domain Services requires a DNS to be available in the network to function. Usually, a DHCP server (dynamic host configuration protocol) takes care of assigning IPs, but in enterprise environments where the network is isolated from external networks, and clients still need to access resources, a DNS server in the network fills this role and caches all the necessary domains and IPs. 
