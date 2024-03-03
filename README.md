@@ -19,7 +19,7 @@
 <h1>How to Deploy a Standalone DNS on a Windows Server 2022</h1>
 In this project, I will detail the process of how to set up a standalone DNS (Domain Name Server) on a Windows Server 2022 operating System and use a Windows 11 Pro client to validate the DNS records configured. 
 
-The first thing to point out is the topology in this diagram. I utilized a private virtual switch within Hyper-V. It is worth mentioning, that I also used an external virtual switch on both virtual machines to test their connectivity and succeeded. I named my server, Thanos, and it is the authoritative DNS for my domain galaxy.com. I also connected a client machine named StarLord running Windows 11 Professional. 
+The first thing to point out is the topology in this diagram. I utilized a private virtual switch within Hyper-V. It is worth mentioning that I also used an external virtual switch on both virtual machines to test their connectivity and succeeded. I named my server Thanos, and it is the authoritative DNS for my domain galaxy.com. I also connected to a client machine named StarLord running Windows 11 Professional. 
 
 ![How to Deploy a Standalone DNS on a Windows Server 2022](https://github.com/jonathansantacruz3/How-to-Deploy-Standalone-DNS-on-Windows-Server-2022/assets/151465848/99e0d271-b524-45e0-97ec-3a09f34c0ecd)
 
